@@ -55,7 +55,7 @@ public class Main {
         userManagementSystem.getProductManagement().addOrder(new Order(10, 150, 5, 1, "2021-05-01 16:20", Order.Status.EXPRESS));
 
 
-        //this is implemented to catch any uncaught exceptions and start a new session in that case
+        //this is implemented to catch any uncaught exceptions
         SystemStart(userManagementSystem);
 
     }
